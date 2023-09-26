@@ -85,7 +85,7 @@ ssim_polygon<-function(shape,map1,map2,standardize=TRUE,bandwidth=NULL,k1=NULL,k
       gwss_result<-gwss_new(shape,vars = c(map1,map2),bw=sqrt_num_rows)
 
     }else{
-      gwss_result<-gwss_new(shape,vars = c(map1,map2),bw=sqrt_num_rows)
+      gwss_result<-gwss_new(shape,vars = c(map1,map2),bw=bandwidth)
     }
     mean<-dplyr::select(gwss_result,contains("LM"))
     sd<-dplyr::select(gwss_result,contains("LSD"))

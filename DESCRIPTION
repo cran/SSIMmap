@@ -1,6 +1,6 @@
 Package: SSIMmap
 Title: The Structural Similarity Index Measure for Maps
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
   person(given="Hui Jeong (Hailyee)", family="Ha", email="hha24@uwo.ca", role = c("aut", "cre"),comment = c(ORCID = "0000-0002-5229-4528")), 
   person(given="Jed", family="Long", email="jed.long@uwo.ca", role="aut", comment = c(ORCID = "0000-0003-3961-3085")))
@@ -19,10 +19,10 @@ URL: https://github.com/Hailyee-Ha/SSIMmap
 BugReports: https://github.com/Hailyee-Ha/SSIMmap/issues
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2023-08-22 15:34:09 UTC; hailyeeha
+Packaged: 2023-09-26 17:50:28 UTC; hailyeeha
 Author: Hui Jeong (Hailyee) Ha [aut, cre]
     (<https://orcid.org/0000-0002-5229-4528>),
   Jed Long [aut] (<https://orcid.org/0000-0003-3961-3085>)
 Maintainer: Hui Jeong (Hailyee) Ha <hha24@uwo.ca>
 Repository: CRAN
-Date/Publication: 2023-08-22 18:40:02 UTC
+Date/Publication: 2023-09-26 18:10:02 UTC
